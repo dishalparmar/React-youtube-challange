@@ -1,0 +1,52 @@
+.videos {
+  flex: 0.8;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+.videos h3 {
+  margin: 0 0 20px 20px;
+}
+.videos-recommended {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* Css for Video Start */
+
+.video {
+  width: 270px;
+  margin-bottom: 40px;
+}
+.video-thumbnail {
+  height: 140px;
+  width: 250px;
+  object-fit: contain;
+}
+.video-info{
+  display: flex;
+  margin-top: 10px;
+}
+.video-text {
+  padding-left: 5px;
+}
+.video-text h4, .video-text p {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+.video-text p {
+  font-size: 13px;
+  color: #888888;
+}
+.video-avatar {
+  height: 30px !important;
+  width: 30px !important;
+}
+
+/* Css for Video End */
+
+@media (max-width: 570px) { 
+  .videos {
+    flex: 1;
+  }
+}
